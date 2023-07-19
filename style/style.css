@@ -1,0 +1,45 @@
+body {
+    margin: 20px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+header {
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(-33deg, #74d690, #5cbfbb);
+    padding: 20px 30px;
+    color: #fff;
+}
+
+footer img {
+    width: 60px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-right: 10px;
+}
+
+.transition {
+    transition: all 0.2s;
+}
+
+.card {
+    max-width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 30px #f9f9f9;
+    overflow: hidden;
+    transform: rotate(-5deg);
+}
+
+.card:hover {
+    transform: rotate(0);
+}
+
+.card:hover footer img {
+    transform: scale(1.15);
+}
